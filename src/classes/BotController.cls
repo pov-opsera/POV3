@@ -1,5 +1,7 @@
 public with sharing class BotController {
 
+// test for demo
+
     class HandlerMapping {
         
         public String handlerClassName;
@@ -19,7 +21,7 @@ public with sharing class BotController {
         System.debug(commands);
         List<HandlerMapping> mappings = new List<HandlerMapping>();
         for (Bot_Command__c command : commands) {
-			mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
+            mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
         }
         handlerMappings = mappings;
     }
