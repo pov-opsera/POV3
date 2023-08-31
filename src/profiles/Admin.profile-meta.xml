@@ -27,6 +27,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>test_demo_ET__c.test_field__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>test_pp__c.test_pp__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -41,6 +46,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>demo_et_aug25__c-demo_et_aug25 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>test_demo_ET__c-test_demo_ET Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>test_pp__c-test_pp Layout</layout>
@@ -70,6 +78,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>demo_et_aug25__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>test_demo_ET__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
