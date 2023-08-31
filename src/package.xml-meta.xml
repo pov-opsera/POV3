@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>ApexClass</name>
+    <members>BotController</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>test_demo_ET__c.test_field__c</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>test_demo_ET__c</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>test_demo_ET__c-test_demo_ET Layout</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+  </types>
+<version>58.0</version></Package>
