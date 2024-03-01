@@ -10,6 +10,7 @@ public with sharing class BotController {
         public HandlerMapping(String handlerClassName, String patternStr) {
             this.handlerClassName = handlerClassName;
             this.utterancePattern = Pattern.compile(patternStr);
+            //Yay Friday
         }
 
     }
@@ -24,6 +25,7 @@ public with sharing class BotController {
             mappings.add(new HandlerMapping(command.apex_class__c, command.pattern__c));
         }
         handlerMappings = mappings;
+        //More comments are here
     }
 // 25th Aug POV EATON 
     @AuraEnabled
@@ -58,6 +60,7 @@ public with sharing class BotController {
         } catch (Exception e) {
             System.debug(e);                
             return new BotResponse(new BotMessage('Bot', 'Oops, something went wrong invoking that command'));
+            //What a great comment this is
         }
         
     }
